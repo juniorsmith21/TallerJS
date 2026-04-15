@@ -28,7 +28,7 @@ class Banco {
 
 const banquito = new Banco("Nu");
 
-// Agregar sucursales
+
 banquito.agregarSucursal("Popayan");
 banquito.agregarSucursal("Pasto");
 banquito.agregarSucursal("Cali");
