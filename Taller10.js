@@ -10,7 +10,7 @@ class Producto {
     }
 
     informacion(cantidad) {
-        return this.precio * cantidad;
+        return `id:${this.id}, nombre:${this.nombre}, precio: ${this.precio * cantidad}`
     }
 }
 
@@ -24,12 +24,12 @@ class PersonalCareProduct extends Producto {
 
 
     informacion(cantidad) {
-        return `id:${this.id}, nombre:${this.nombre}, precio ${this.precio * cantidad}, ${this.garantia};`
+        return `${super.informacion(cantidad)}, garantia: ${this.garantia};`
     }
 }
 
-// Crear instancia
-let producto = new PersonalCareProduct(1231, "Shampoo", 20000,"1 mes garantia" );
 
-// Calcular total
+let producto = new PersonalCareProduct(1231, "Shampoo",20000,"1 mes garantia" );
+
+
 console.log(producto.informacion(5));
