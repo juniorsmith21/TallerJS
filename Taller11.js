@@ -47,11 +47,3 @@ cuentica.transferir(400, cuentica1)
 cuentica.mostrarInfo();
 cuentica1.mostrarInfo();
 
-universita.agregarDepartamento("Robotica");
-universita.agregarDepartamento("Ingenieria");
-universita.agregarDepartamento("Derecho");
-universita.agregarDepartamento("Arquitectura");
-universita.agregarDepartamento("Medicina");
-universita.mostrarDepartamentos();
-universita.eliminarDepartamento("Ingenieria");
-universita.mostrarDepartamentos();

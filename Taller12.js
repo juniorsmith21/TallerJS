@@ -18,3 +18,14 @@ class Universidad {
 }
 
 
+const universita = new Universidad("Universidad Nacional");
+
+universita.agregarDepartamento("Robotica");
+universita.agregarDepartamento("Ingenieria");
+universita.agregarDepartamento("Derecho");
+universita.agregarDepartamento("Arquitectura");
+universita.agregarDepartamento("Medicina");
+universita.mostrarDepartamentos();
+universita.eliminarDepartamento("Ingenieria");
+universita.mostrarDepartamentos();
+
