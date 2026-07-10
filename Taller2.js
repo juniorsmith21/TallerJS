@@ -1,7 +1,7 @@
 class Rectangulo{
 ancho;
 alto;
- constructor(ancho, alto) {
+ constructor(ancho, alto) { 
     this.ancho = ancho;
     this.alto = alto;
  }
