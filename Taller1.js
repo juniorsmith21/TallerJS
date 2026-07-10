@@ -4,7 +4,7 @@ edad;
 pais;
 constructor(nombre, edad, pais) {
 this.nombre = nombre;
-this.edad = edad;
+this.edad = edad; 
 this.pais = pais;
 }
 informacion() {
