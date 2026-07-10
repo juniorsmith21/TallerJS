@@ -4,7 +4,7 @@ class Forma {
     }
 }
 
-class Circulo extends Forma {
+class Circulo extends Forma { 
     radio;
 
     constructor(radio) {
