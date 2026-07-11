@@ -1,7 +1,7 @@
 class Universidad {
     constructor(nombre) {
         this.nombre = nombre;
-        this.departamentos = [];
+        this.departamentos = [];  
     }
     agregarDepartamento(departamento) {
         this.departamentos.unshift(departamento);
