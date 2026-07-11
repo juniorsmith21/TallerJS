@@ -1,4 +1,4 @@
-class BankAccount {
+ class BankAccount {
     constructor(numeroCuenta, titular, saldo) {
         this.numeroCuenta = numeroCuenta;
         this.titular = titular;
